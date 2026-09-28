@@ -1,0 +1,8 @@
+-- Verification of generate_data.py output (Part A, Task 2)
+-- Queries run: SELECT COUNT(*) FROM <table>  for each of the three tables.
+--
+-- categories       -> COUNT(*) = 7    (6 active categories + 1 held-out: Pest Control)
+-- partners_import  -> COUNT(*) = 52   (48 city partners + 1 idle partner + 3 duplicate rows)
+-- bookings         -> COUNT(*) = 600  (N_BOOKINGS as generated, before Task 6 delete/insert)
+--
+-- All three match the acceptance criteria in the project brief exactly.
